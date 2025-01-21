@@ -31,7 +31,7 @@ const ExerciseDetail = () => {
 
       setExerciseDetail(exerciseDetailData);
 
-      
+
       //fetch from youtube api and it failed 403 nd 429 errors
       // const exerciseVideodata = await FetchData(
       //   `${youtubeSearchUrl}/Search?query=${exerciseDetailData.name}`,

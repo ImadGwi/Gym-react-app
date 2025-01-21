@@ -1,0 +1,41 @@
+.
+├── App.css
+├── App.js
+├── Pages
+│   ├── ExerciseDetail.js
+│   └── Home.js
+├── assets
+│   ├── icons
+│   │   ├── body-part.png
+│   │   ├── equipment.png
+│   │   ├── gym.png
+│   │   ├── left-arrow.png
+│   │   ├── right-arrow.png
+│   │   └── target.png
+│   └── images
+│       ├── Logo-1.png
+│       ├── Logo.png
+│       └── banner.png
+├── cat
+├── components
+│   ├── Detail
+│   │   ├── Detail.js
+│   │   ├── ExerciseVideos.js
+│   │   └── SimilairExercise.js
+│   ├── Footer.js
+│   ├── Home
+│   │   ├── Exercices.js
+│   │   ├── ExerciseCard.js
+│   │   ├── Herobanner.js
+│   │   ├── HorizontalScrollbar.js
+│   │   ├── SearchExercices.js
+│   │   └── bodyPart.js
+│   └── NavBar.js
+├── index.js
+├── reportWebVitals.js
+├── setupTests.js
+└── utils
+    └── fetchDatas.js
+dell  [error opening dir]
+
+9 directories, 29 files

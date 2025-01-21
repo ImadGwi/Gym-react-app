@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"; //rafce
+import { Route, Routes } from "react-router-dom";
+import { Box } from "@mui/material";
+
+import NavBar from "./components/NavBar";
+import Home from "./Pages/Home";
+
+import Footer from "./components/Footer";
+import ExerciseDetail from "./Pages/ExerciseDetail";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box>
+      {/* sx for responsive and m for margin*/}
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/exo/:id" element={<ExerciseDetail />} />
+        {/* this ":id" say that the id will be dynamic */}
+      </Routes>
+      <Footer />
+    </Box>
   );
-}
+} //02:15:00
 
 export default App;
